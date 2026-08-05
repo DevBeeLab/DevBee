@@ -1,6 +1,6 @@
 # DevBee Portfolio
 
-A personal portfolio website showcasing my work as a frontend developer — built with HTML, CSS, and JavaScript.
+A personal portfolio website showcasing my work as a frontend developer; built with HTML, CSS, and JavaScript.
 
 🌐 **Live site:** [devbeelab.github.io/DevBee-Portfolio](https://devbeelab.github.io/DevBeeLab/)
 
@@ -8,7 +8,7 @@ A personal portfolio website showcasing my work as a frontend developer — buil
 
 ## About
 
-Hi, I'm DevBee — a full-stack developer based in Oyo, Nigeria. I specialize in building responsive and interactive web experiences. This portfolio highlights my skills, featured projects, and client testimonials.
+Hi, I'm DevBee;a full-stack developer based in Oyo, Nigeria. I specialize in building responsive and interactive web experiences. This portfolio highlights my skills, featured projects, and client testimonials.
 
 ---
 
