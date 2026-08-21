@@ -200,11 +200,12 @@
     }
     body.dark-mode #navbar.scrolled { background: rgba(13,17,23,0.92); }
     .nav-inner {
-      display: flex; align-items: center; justify-content: space-between;
+      display: flex; align-items: center; justify-content: space-between; padding-top: 15px;
       height: 100%;
+      
     }
     .nav-logo {
-      display: flex; align-items: center; gap: 10px;
+      display: flex; align-items: center; gap: 10px; top: 20px;
     }
     .nav-logo img { height: 32px; width: auto; }
     .nav-logo-text {
@@ -327,6 +328,7 @@
     .hero-p {
       font-size: 1rem; color: var(--text-secondary);
       max-width: 46ch; margin-bottom: 30px; line-height: 1.75;
+      text-align: justify;
     }
     .hero-ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 32px; }
     .hero-social { display: flex; gap: 16px; align-items: center; }
@@ -411,7 +413,7 @@
       margin-bottom: 12px;
     }
     .wib-card h3 { font-size: 0.9rem; font-weight: 600; margin-bottom: 7px; }
-    .wib-card p { font-size: 0.82rem; color: var(--text-secondary); line-height: 1.6; }
+    .wib-card p { font-size: 0.82rem; color: var(--text-secondary); line-height: 1.6; text-align: justify;}
     @media (max-width: 900px) { .wib-grid { grid-template-columns: repeat(2,1fr); } }
     @media (max-width: 500px) { .wib-grid { grid-template-columns: 1fr; } }
 
@@ -455,6 +457,7 @@
     .about-text p {
       color: var(--text-secondary); margin-bottom: 16px;
       font-size: 0.97rem; line-height: 1.78;
+      text-align: justify;
     }
     .about-text p:last-child { margin-bottom: 0; }
     @media (max-width: 860px) {
@@ -717,6 +720,10 @@
     .rd1 { transition-delay: 0.1s; }
     .rd2 { transition-delay: 0.2s; }
     .rd3 { transition-delay: 0.3s; }
+
+    .proj-desc {
+      text-align: justify;
+    }
   </style>
 </head>
 <body>
@@ -788,7 +795,7 @@
               Full-Stack Developer<br />building <em>real-world</em><br />web applications
             </h1>
             <p class="hero-p">
-              I build complete web applications using React, JavaScript, Django, REST APIs and PostgreSQL — from frontend interface through backend API to production deployment.
+              I build complete web applications using React, JavaScript, Django, REST APIs and PostgreSQL; from frontend interface through backend API to production deployment.
             </p>
             <div class="hero-ctas">
               <a href="#projects" class="btn btn-primary">
@@ -1093,6 +1100,9 @@
                 <span class="badge">DRF</span><span class="badge">PostgreSQL</span>
               </div>
               <div class="proj-actions">
+                  <a href="https://devbeelab-quiz-prep.vercel.app" target="_blank" rel="noopener" class="btn btn-primary">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
                 <a href="https://github.com/DevBeeLab" target="_blank" rel="noopener" class="btn btn-outline">
                   <i class="fa-brands fa-github"></i> GitHub
                 </a>
